@@ -23,7 +23,7 @@ async function recibirEvento() {
             const id = mensaje.content
             try {
                 const id = Number(mensaje.content)
-                const response = await axios.post('http://localhost:3001/mensaje', {
+                const response = await axios.post('https://api-hexagonal-back2.onrender.com', {
                    id
                 });
                 console.log("Respuesta de la API externa:",response.data);
