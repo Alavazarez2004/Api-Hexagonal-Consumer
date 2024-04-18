@@ -15,5 +15,8 @@
     "amqplib": "^0.10.3",
     "axios": "^1.6.7",
     "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
   }
 }
